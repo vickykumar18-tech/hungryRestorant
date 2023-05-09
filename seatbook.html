@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>booking</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/seatbook.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+<div class="container-fluid mb-5 body">
+         <div class="container mt-5">
+          <nav class="d-flex justify-content-between ">
+              <div class="logo ">
+              <a href="index.html" class="text-decoration-none"><h1>Hungry</h1></a>
+              <marquee><p>Resto..😀</p></marquee>
+                            </div>
+              <div class="d-flex menu mt-2">
+                <a href="index.html" class=""><li>Home</li></a>
+                <a href="Menucard.html"><li>Menu</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="location.html"><li>Location</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="seatbook.html"><li>Booking Seat</li></a>
+              </div>
+              <div class="iconpart mt-2">
+               
+                 
+                <span><i class="fa fa-bars icon" aria-hidden="true"></i></span>
+              </div>
+           </nav>   
+         </div>
+         <div class="row">
+           <div class="col-sm-12 justify-content-evenly d-flex">
+             <h1 class="text-white">BOOK A SEAT</h1>
+           </div>
+         </div>
+         <div class="container mt-5 uppart">
+     <div class="row  d-flex justify-content-evenly">
+       <div class="col-sm-2 card1 ">
+         <img src="bookingimage/restaurant-interior.jpg">
+         <p class="table1">Family and friends table</p>
+         <div class="card2">
+           <p> From Corporate websit development, web designing, ecommerce.</p>
+           <button class="btn bg-primary firstbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+         </div>
+       </div>
+       <div class="col-sm-2 card1-a">
+         <img src="bookingimage/restaurant-interior.jpg">
+          <p class="table2 text-center">Only childerns</p>
+         <div class="card2-a">
+           <p> From Corporate websit= development, web designing, ecommerce.</p>
+           <button class="btn bg-primary firstbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+         </div>
+       </div>
+       <div class="col-sm-2 card1-b">
+         <img src="bookingimage/restaurant-interior.jpg">
+          <p class="table3 text-center">Pet friendly</p>
+         <div class="card2-b">
+           <p> From Corporate website development, web designing, ecommerce.</p>
+           <button class="btn bg-primary firstbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+         </div>
+       </div>
+       <div class="col-sm-2 card1-c">
+         <img src="bookingimage/restaurant-interior.jpg">
+          <p class="table4 text-center">Roof top</p>
+        
+         <div class="card2-c">
+           <p> From Corporate website development, web designing, ecommerce.</p>
+           <button class="btn bg-primary firstbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button> 
+       </div>
+     </div>
+
+
+     </div>
+   </div>
+
+    <div class="container mt-5 downpart">
+     <div class="row d-flex justify-content-evenly">
+      <div class="col-sm-2 card-down1">
+        <img src="bookingimage/hotel-lobby-interior.jpg" class="image1">
+         <div>
+           <p class="table5 text-center">Candle light dinner</p>
+         </div>
+          <div class="card-candle">
+        <p>From Corporate website development, web designing, ecommerce.</p>
+        <button class="btn bg-primary secondbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+      </div>
+      </div>
+      <div class="col-sm-2 card-down2">
+        <img src="bookingimage/hotel-lobby-interior.jpg" class="image1">
+         <div>
+           <p class="table5 text-center">Pool side & out door</p>
+         </div>
+          <div class="card-pool">
+        <p>From Corporate website development, web designing, ecommerce.</p>
+        <button class="btn bg-primary secondbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+      </div>
+      </div>
+      <div class="col-sm-2 card-down3">
+        <img src="bookingimage/hotel-lobby-interior.jpg" class="image1">
+         <div>
+           <p class="table5 text-center">Bar-side & Smoking</p>
+         </div>
+          <div class="card-bar">
+        <p>From Corporate website development, web designing, ecommerce.</p>
+        <button class="btn bg-primary secondbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+      </div>
+      </div>
+      <div class="col-sm-2 card-down4">
+        <img src="bookingimage/hotel-lobby-interior.jpg" class="image1">
+         <div>
+           <p class="table5 text-center">Family</p>
+         </div>
+          <div class="card-family">
+        <p>From Corporate website development, web designing, ecommerce.</p>
+        <button class="btn bg-primary secondbtn" onclick="book();"><a href="#" class="text-white">Booking</a></button>
+      </div>
+      </div>
+       
+     </div>
+   </div>
+   <div class="calendor text-center " id="bookingform">
+        <form class="mt-2">
+
+             <caption class=""><h1>BOOK A SEAT</h1></caption>
+              <label>Date</label>           
+             <input type="date" name="" class="w-100"><span class="date"><i class="bi bi-calendar-check-fill"></i></span>
+             <br>
+             
+             <input type="radio" name="gender" class="break" style="width:30px!important; margin-top:20px; margin-right:px;"><span class="fs-5" style="margin-right: 20px;">BreakFast</span>
+             <input type="radio" name="gender" class="lunch" style="width: 30px!important; margin-top:20px; margin-right:px;"><span class="fs-5" style="margin-right:20px;">Lunch</span>
+             <input type="radio" name="gender" class="dinner" style="width: 30px!important; margin-top:20px; margin-right:px;"><span class="fs-5" style="margin-right:20px;">Dinner</span>
+
+             <br>
+              <label>Guest Name </label>
+              <input type="text" name="" class="w-100 fs-5" placeholder="Enter your name"><span class="name"><i class="bi bi-person-bounding-box"></i></span>
+              <br>
+              <label>Mobile Number</label>
+              <input type="text" maxlength="10" name="" placeholder="Enter number" class="w-100"><span class="name"><i class="bi bi-telephone-forward-fill"></i></span>
+              <br>
+              <label>Any special request(optional)</label>
+              <input type="text" name="" placeholder="any request" class="w-100"><span class="name"><i class="bi bi-chat-dots-fill"></i></span>
+              <br>
+              <button class="btn bg-primary mt-2 w-25 text-white fw-bold" onclick="window.location.reload();" id="sub">Submit</button>
+        </form>
+   </div>
+   <script type="text/javascript">
+     
+     function book(){
+      document.getElementById('bookingform').style.display="block";
+      
+     }
+     
+   </script>
+</body>
+</html>

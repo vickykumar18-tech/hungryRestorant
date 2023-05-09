@@ -1,0 +1,477 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	box-sizing: border-box;
+}
+
+body{
+	background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	height: 1000px;
+}
+li{
+	list-style: none;
+}
+.logo h1{
+  color: orange;
+}
+.logo p{
+  color: orange;
+}
+
+.menu a{
+	text-decoration: none;
+	color: orange;
+	font-weight: 700;
+	 
+}
+.menu a:hover {
+ color: white; 
+ border-bottom: 2px solid white;
+}
+
+ a{
+	text-decoration: none;
+}
+.menu a{
+  height: 30px;
+}
+.containet-fluid .container .navbar{
+	width: ;
+}
+.menu{
+	width: 50%;
+	
+}
+.menu a {
+	margin: 0px 10px;
+}
+.iconpart .icon{
+	margin: 0px 10px;
+	font-size: 20px;
+}
+.booking{
+	background-color: orange;
+	border-radius: 5px;
+}
+.table1{
+	cursor: pointer;
+	width: 150px;
+	height: 60px;
+	padding: 10px;
+	top: -70px;
+     
+	color: white;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px orange;
+	left: 10px;
+    position: relative;
+	background-color: orange;
+	transition: all 0.5s;
+}
+
+.card2 { font-weight:700 ; width: 190px; height: 200px; position: absolute;
+ left: 193px; bottom: -40px; border-radius: 5px; padding: 10px;
+ margin-left: -12px; background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.8s;
+}
+.card2 p{
+	margin-top: -50px;
+	text-align: center;
+}
+
+.card1:hover .card2{
+	opacity: 3;
+	position: absolute;
+	
+  bottom: 193px;
+}
+.card1{
+	border-radius: 5px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	transition: all 0.5s;
+   padding: 0px 10px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+img{
+	border-radius: 5px;
+	width: 80%;
+	margin-left: 16px;
+	transform: translateY(-40px);
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.card1 p{
+	transform:translateY(50px);
+}
+
+	
+.card1-a{
+	border-radius: 5px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	transition: all 0.5s;
+   padding: 0px 10px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.card1-a p{
+	transform:translateY(50px);
+}
+
+.card2-a{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	left: 457px;
+	bottom: -40px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card2-a p{
+	margin-top: -50px;
+	text-align: center;
+}
+.card1-a:hover .card2-a{
+	opacity: 3;
+	position: absolute;
+	
+  bottom: 193px;
+}
+
+.card2-b{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	left: 723px;
+	bottom: -40px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card2-b p{
+	margin-top: -50px;
+	text-align: center;
+}
+	
+.card1-b{
+	border-radius: 5px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	transition: all 0.5s;
+   padding: 0px 10px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.card1-b p{
+	transform:translateY(50px);
+}
+
+.card2-c{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	right: 180px;
+	bottom: -40px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card2-c p{
+	margin-top: -50px;
+	text-align: center;
+	transform: translateY(50px);
+}
+	
+
+
+.card1-c{
+	border-radius: 5px;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	transition: all 0.5s;
+   padding: 0px 10px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card1-b:hover .card2-b{
+	opacity: 3;
+	position: absolute;
+	
+  bottom: 193px;
+}
+.table2{
+	cursor: pointer;
+	width: 150px;
+	height: 60px;
+	padding: 10px;
+	top: -70px;
+     
+	color: white;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px orange;
+	left: 10px;
+    position: relative;
+	background-color: orange;
+	transition: all 0.5s;
+}
+.table3{
+	cursor: pointer;
+	width: 150px;
+	height: 60px;
+	padding: 10px;
+	top: -70px;
+     
+	color: white;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px orange;
+	left: 8px;
+    position: relative;
+	background-color: orange;
+	transition: all 0.5s;
+}
+.table4{
+	cursor: pointer;
+	width: 150px;
+	height: 60px;
+	padding: 10px;
+	top: -20px;
+     
+	color: white;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px orange;
+	left: 8px;
+    position: relative;
+	background-color: orange;
+	transition: all 0.5s;
+}
+.card1-c:hover .card2-c{
+	opacity: 3;
+	position: absolute;
+	
+  bottom: 193px;
+}
+/*.table4:hover{
+	color: black;
+}*/
+.downpart{
+	transform: translateY(100px);
+}
+
+
+
+.card-down1{
+	width: 200px;
+	background-color: whitesmoke;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+	/*background-color: darkcyan;*/
+}
+.card-down2{
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+	/*background-color: darkcyan;*/
+}
+.card-down3{
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+	/*background-color: darkcyan;*/
+}
+.card-down4{
+	width: 200px;
+	height: 200px;
+	background-color: whitesmoke;
+	border-radius: 5px;
+	box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
+	/*background-color: darkcyan;*/
+}
+.image1{
+	width: 80%;
+	height: 20vh;
+}
+
+.table5{
+	cursor: pointer;
+	width: 150px;
+	height: 60px;
+	padding: 10px;
+	top: -20px;
+     
+	color: white;
+	font-weight: 500;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px orange;
+	left: 8px;
+    position: relative;
+	background-color: orange;
+	transition: all 0.5s;
+}
+.card-candle{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	left: 86px;
+	bottom: -210px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card-down1:hover .card-candle{
+   opacity: 3;
+	position: absolute;
+	
+  bottom: 0px;
+}
+.card-pool{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	left: 352px;
+	bottom: -210px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card-down2:hover .card-pool{
+   opacity: 3;
+	position: absolute;
+	
+  bottom: 0px;
+}
+
+.card-bar{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	left: 618px;
+	bottom: -210px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card-down3:hover .card-bar{
+   opacity: 3;
+	position: absolute;
+	
+  bottom: 0px;
+}
+
+.card-family{
+	font-weight:700 ;
+	width: 190px;
+	height: 200px;
+	position: absolute;
+	right: 76px;
+	bottom: -210px;
+	border-radius: 5px;
+	margin-left: -10px;
+   padding: 10px;
+	background-color: orange;
+	opacity: 0.0;
+	cursor: pointer;
+	transition: all 0.9s;
+}
+.card-down4:hover .card-family{
+   opacity: 3;
+	position: absolute;
+	
+  bottom: 0px;
+}
+.uppart{
+	/*transform: translateY(10px);*/
+}
+.firstbtn{
+	margin-left: 40px;
+	margin-top: 70px;
+} 
+button a{
+	font-weight: 700;
+	text-decoration: none;
+}
+.calendor{
+	margin-top: 130px;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	left: 500px;
+	top: 0px;
+	display: none;
+	background: linear-gradient(145deg, #FE6400, #AE4400);
+border-radius: 15%;
+box-shadow: inset 9.91px 9.91px 15px #C34C00, inset -9.91px -9.91px 15px #E95C00;
+}
+form{
+	padding: 10px;
+}
+form input{
+
+	height: 35px;
+}
+form label{
+	font-size: 25px;
+}
+.secondbtn{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.date{
+	position: absolute;
+right: 16px;
+font-size: 23px;
+}
+.name{
+	position: absolute;
+	right:16px;
+	font-size: 23px;
+}

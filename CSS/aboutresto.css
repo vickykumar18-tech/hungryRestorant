@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow: hidden;
+	background-image: url(../IMAGE/aboutresto.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+li{
+	list-style: none;
+}
+.logo h1{
+  color: orange;
+}
+.logo p{
+  color: orange;
+}
+
+.menu a{
+	cursor: pointer;
+	text-decoration: none;
+	color: orange;
+	font-weight: 700;
+	 
+}
+.menu a:hover {
+ color: white; 
+ border-bottom: 2px solid white;
+}
+
+ a{
+	text-decoration: none;
+}
+.menu a{
+  height: 30px;
+}
+
+
+/*-----------------------MAIN PART START-----------*/
+
+.containet-fluid .container .navbar{
+	width:}
+ ;
+.menu{
+	width: 70%;
+	
+}
+.menu a {
+	margin: 0px 10px;
+}
+.iconpart .icon{
+	margin: 0px 10px;
+	font-size: 20px;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+.container1{
+  color: orange;
+  top: 100px;
+  /*height: 50vh;*/
+  width: 700px;
+  position:absolute;
+  left:80px;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 600px;
+    height: 300px;
+ 
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 10px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+.linkpart{
+	width: 700px;
+}
+h2{
+	margin-bottom: 10px;
+}
+ /*ul{
+ 	display: flex;
+ }
+li{
+	background-color: orange;
+	margin-top: 20px;
+	padding: 5px;
+	width: 100px;
+	color: white;
+	font-weight: 500;
+	border-radius: 6%;
+	list-style: none;
+	border: transparent;
+	text-align: center;
+	margin: 0px 5px;
+}
+a{
+	font-size: 20px;
+	text-decoration: none;
+
+}
+a li:hover{
+	background-color: white;
+	color: black;
+}
+div .all{
+	text-align: center;
+	margin-top: 20px;
+	word-spacing: 4px;
+	color: orange;
+}
+span{
+	color: white;
+}
+p{
+	color: white;
+}
+span i{
+	margin: 10px 20px;
+
+}
+ul a{
+	text-decoration: none;
+}
+#text{
+   padding: 20px;
+}*/
+span i{
+	margin: 10px 20px;
+
+}
